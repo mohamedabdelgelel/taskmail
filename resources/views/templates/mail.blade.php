@@ -13,7 +13,7 @@
 
 <body>
     <center>
-        <img src="data:image/png;base64,{{base64_encode(file_get_contents(resource_path('images/img-39.jpg')))}}" style="width:100%; max-width:600px; min-width: 320px; border:none;">
+        <img src="{{ $message->embed('media/stock-600x400/img-39.jpg') }}" style="width:100%; max-width:600px; min-width: 320px; border:none;">
         <table
             style="width:100%; max-width:600px; min-width: 320px; border:none;  background-repeat: repeat-x;background-position: bottom center;background-color: #fff;">
             <tr>
