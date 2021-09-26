@@ -2,13 +2,10 @@
 /public/hot
 /public/storage
 /public/js/app.js
-/public/frontend/js/app.js
 
 
 /public/css/app.css
 /storage/*.key
-public/css
-public/js
 /vendor
 .env
 .idea/
@@ -24,4 +21,3 @@ public/app.css
 public/app.js
 public/css/app.css
 /public/js/app.js
-/public/frontend/js/app.js
